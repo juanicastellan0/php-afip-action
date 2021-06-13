@@ -1,0 +1,5 @@
+name: 'PHP AFIP action'
+description: 'Run tests for PHP AFIP library'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
