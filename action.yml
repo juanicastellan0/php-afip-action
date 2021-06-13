@@ -2,4 +2,4 @@ name: 'PHP AFIP action'
 description: 'Run tests for PHP AFIP library'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: docker://pablorsk/php-afip@v1.6
