@@ -11,4 +11,4 @@ RUN sed -i 's,^\(MinProtocol[ ]*=\).*,\1'TLSv1.2',g' /etc/ssl/openssl.cnf \
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ['/entrypoint.sh']
+ENTRYPOINT ["/entrypoint.sh"]
